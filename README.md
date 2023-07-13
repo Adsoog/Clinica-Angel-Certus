@@ -19,6 +19,8 @@ CREATE TABLE emergency_order (
   emergency_details TEXT NOT NULL,
   notes VARCHAR(255) NOT NULL
 );
+
+
 CREATE TABLE external_consultation (
 id INT PRIMARY KEY AUTO_INCREMENT,
 patient_name VARCHAR(255),
@@ -31,6 +33,8 @@ consultation_cost DECIMAL(10, 2),
 consultation_details VARCHAR(255),
 notes VARCHAR(255)
 );
+
+
 
 SELEcT * from emergency_order;
 select * from external_consultation
